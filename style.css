@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+}
+  
+h1 { 
+  text-align: center;
+  color: blue;
+}
+
+h2 { 
+  text-align: center;
+  color: white;
+}
+
+p {
+  color: lightgray;
+  text-align: justify;
+}
