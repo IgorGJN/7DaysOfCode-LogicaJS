@@ -1,9 +1,18 @@
 body {
   background-color: black;
+  padding: 0 25%;
 }
   
 h1 { 
   text-align: center;
+  color: skyblue;
+}
+
+h1:hover {
+  text-shadow: 0.5px 0.5px white;
+}
+
+h1:active {
   color: blue;
 }
 
@@ -12,7 +21,75 @@ h2 {
   color: white;
 }
 
+h2:hover {
+  text-shadow: 0.5px 0.5px skyblue;
+}
+
+h2:active {
+  color: red;
+}
+
 p {
   color: lightgray;
   text-align: justify;
+}
+
+fieldset {
+  color: white;
+  font-size: 2em;
+}
+
+input { 
+  width: 50%;
+  height: 2em;
+}
+
+button {
+  background-color: #FFFF00;
+  margin: 25px 25% 5px 25%;
+  width: 50%;
+  height: 1.5em;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: greenyellow;
+}
+
+button:active {
+  background-color: blueviolet;
+}
+
+#operacao {
+  width: 39%;
+}
+.btnday {
+  background-color: skyblue;
+  height: 35px;
+  font-weight: bold;
+}
+.ocultar {
+  display: none;
+}
+
+.days {
+  border: 2px solid gray;
+  margin: 2% 0 2% 0;
+  padding: 2%;
+}
+
+.days:hover {
+  background-color: grey;
+}
+
+.back {
+  background-color: darkblue;
+  color: white;
+}
+
+@media screen and (max-width: 940px){
+  body {
+    background-color: rgb(32, 32, 32);
+    padding: 0 15%;
+  }
 }

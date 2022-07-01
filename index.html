@@ -10,24 +10,74 @@
 
 <body>
   <h1>#7DaysOfCode - Lógica JavaScript</h1>
+  <div class="days day1">
   <h2>Day One</h2>
   <p>Problemas com os tipos de variáveis na hora de comparar os valores de duas variáveis entre si.</p>
+      <button class="btnday" onclick="day1()">Day 1</button>
+  </div>
+<div class="days day2">
   <h2>Day Two</h2>
   <p>Sabe quando você se cadastra em um site e, logo em seguida, quando faz o seu login, ele já te chama pelo seu nome? É isso que você vai fazer no desafio de hoje!</p>
+        <button class="btnday" onclick="day2()">Day 2</button>
+  </div>
+<div class="days day3">
   <h2>Day Tree</h2>
   <p>Você alguma vez já jogou algum jogo que te desse mais de uma escolha e, dependendo do que você escolhesse, o destino do personagem seria totalmente diferente?<br>
 Hoje você vai desenvolver um exemplo assim com Javascript!</p>
+      <button class="btnday" onclick="day3()">Day 3</button>
+</div>
+<div class="days day4">
   <h2>Day Four</h2>
-  <p></p>
+  <p>Você já brincou de tentar adivinhar o número que seu amigo ou amiga estava pensando? Hoje você vai voltar na infância e fazer exatamente isso. Mas agora, o jogo vai ser contra o próprio computador!</p>
+        <button class="btnday" onclick="day4()">Day 4</button>
+  </div>
+<div class="days day5">
   <h2>Day Five</h2>
-  <p></p>
+  <p>Sabe quando você vai no supermercado com uma lista de compras e acaba ficando indo e voltando nos mesmos corredores até completar a lista?
+<br>
+Você precisa de uma maçã e vai para a área de frutas. O próximo item é um leite e você segue para os laticínios. Mas em seguida você anotou a pêra, e precisa novamente retornar para a área de frutas.</p>
+      <button class="btnday" onclick="day5()">Day 5</button>
+</div>
+<div class="days day6">
   <h2>Day Six</h2>
-  <p></p>
+  <p>Você deverá criar a opção de remover algum item da lista, que será exibida junto à pergunta de “você deseja adicionar uma comida na lista de compras”?
+<br>
+A partir daí, caso a pessoa escolha essa opção, o programa irá imprimir os elementos presentes na lista atual, e a pessoa deverá escrever qual deles deseja remover.
+<br>
+Depois disso, o programa irá remover o elemento da lista e imprimir a confirmação de que o item realmente não está mais lá.</p>
+      <button class="btnday" onclick="day6()">Day 6</button>
+</div>
+<div class="days day7">
   <h2>Day Seven</h2>
-  <p></p>
+  <p>Você já parou para pensar como uma calculadora funciona?
+<br>
+Ela pede para você digitar um número, depois você seleciona um tipo de operação, um outro número, e ela faz sozinha o cálculo para te mostrar o resultado! Incrível, né?
+<br>
+Neste último desafio, a minha proposta para você é: crie a sua própria calculadora, porém com um detalhe muito importante: cada operação deverá ser uma função diferente no seu código.</p>
+      <button class="btnday" onclick="day7()">Day 7</button>
   
-  	<script type="text/javascript" src="day4.js"></script>
 
+  	<br>
+  	<br>
+</div>
+  	<div class="days day7 ocultar">
+  	<fieldset>
+    <legend>Cálculo</legend>
+    <label>Valor 1:</label>
+    <input id="num1" type="tel"/>
+    <label>Operação:</label>
+    <input id="operacao" type="tel"/>
+    <label>Valor 2: </label>
+    <input id="num2" type="tel"/>
+    <button id="somar" onclick="somarValores()">Resultado</button>
+    
+</fieldset> 
+</div>
+<div class="voltar">
+      <button class="back" id="back" onclick="voltar()">Voltar</button>
+
+</div>
+  	<script type="text/javascript" src="main.js"></script>
 </body>
 
 </html>
