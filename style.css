@@ -92,4 +92,13 @@ button:active {
     background-color: rgb(32, 32, 32);
     padding: 0 15%;
   }
+
+  fieldset {
+    font-size: 1em;
+  }
+  
+  input { 
+    width: 70%;
+    height: 2em;
+  }
 }
